@@ -1,0 +1,218 @@
+<head>
+    <style>
+        body{ 
+            outline:none;
+            overflow-x: hidden;
+        }
+        body::-webkit-scrollbar {
+            display: none;
+        }
+        #navbarlogo{
+            position: absolute;
+            left:7em;
+            top:0.5em;
+            width:50px;
+        }
+        .navmenu{
+            position: absolute;
+            left:60%;
+            top:1.7em;
+        }
+        #aboutpicture img{
+            position:absolute;
+            left:0em;
+            top:0%;
+            width:2000px;
+            z-index:-1;
+            clip:rect(300, 1920, 1200, 0);
+            margin-top:-12%;
+            filter:brightness(40%);
+        }   
+        .slogan {
+            position:absolute;
+            left:2em;
+            top:2em;
+            font-size:4em;
+            
+        }
+        .contentdescript {
+            position:absolute;
+            left:7em;
+            top:12em;
+            font-size:larger;
+            text-align:left;
+            margin-right:15em;
+        }
+        .baroque:hover {
+            transition: ease 0.4s;
+            filter:brightness(40%);
+        }
+
+        .classical:hover {
+            transition: ease 0.4s;
+            filter:brightness(40%);
+        }
+        .romantic:hover {
+            transition: ease 0.4s;
+            filter:brightness(40%);
+        }
+        .nationalism:hover {
+            transition: ease 0.4s;
+            filter:brightness(40%);
+        }
+        .modernism:hover {
+            transition: ease 0.4s;
+            filter:brightness(40%);
+        }
+    </style>
+</head>
+
+<body>
+    
+
+    <div class = "navbar" >
+        <div class = "navlogo">
+            <img src="images/logo.png" id = "navbarlogo" >
+        </div>
+        <div class = "navtext" style="position: absolute; font-size: x-large; font-weight: 10; top:0.7em; left:7.5em;">
+            SYMPHONIA
+        </div>
+        <div class = "navmenu">
+            <a href = "#" style = "padding:2em; font-weight: 10; font-size: larger; text-decoration : none; color:black;" >
+                Home
+            </a>
+            <a href = "#tp1" style = "padding:2em; font-weight: 10; font-size: larger;">
+                Info
+            </a>
+            <a style = "padding:2em; font-weight: 10; font-size: larger;">
+                Preview
+            </a>
+            <a style = "padding:2em; font-weight: 10; font-size: larger;">
+                Content
+            </a>
+            <a style = "padding:2em; font-weight: 10; font-size: larger;">
+                Contact
+            </a>
+        </div>
+    </div>
+
+    <div class = "aboutcenter" >
+        <div class = "aboutcontent">
+            <section id = "aboutpicture">
+                <img src="images/aboutbackground.jpg">
+            </section>
+            <h1 class = "slogan" style = "color:white;">
+                클래식 음악을 사랑하는 당신을 위해.
+            </h1>
+            <p class = "contentdescript" style="color:white;">
+                당신이 좋아하는 클래식 작곡가를 소개합니다. <br> 바로크부터 국민악파까지 음악과 함께 떠나는 여행. 
+                <br> 당신의 클래식 취향을 존중하여 거의 모든 작곡가를 수록하였으며,<br>시대별로 나뉘어져 탐색하기 편리합니다. <br>
+                심포니아는 최고의 경험을 선사합니다. 
+            </p>
+        </div>
+    </div>  
+    <div class = "content" style = "position:absolute; left:17em; top:34em; font-size:xx-large; " id = "tp1">
+        <div class = "background" style = "background-color:rgb(255, 255, 255); width:1920px; height:1320px; position:absolute; left:-17em; top:-5em; z-index:-30">
+            
+        </div>
+        <h1 style = "position:relative; left:17%; top: -2em; color:black; font-weight:30; font-size:50px">
+            당신이 원하는 시대를 선택하세요.
+        </h1>
+        <p style = "font-family:Georgia; position:absolute; left:32%; top:0%; font-size:20px;">
+            Pick your demanding era of the classical music
+        </p>
+        <h3 style = "font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: 10;
+        position:absolute; top:1em; left:-3em;">
+            About Each Eras
+        </h3>
+        <p style="position: absolute; left: -12em; top:6em; font-size:20px; margin-right:17.5em; font-weight: 10; text-align: center;">
+            바로크 음악은 1600년경~1750년경의 유럽 음악의 사조입니다. <br><br>
+            고전주의 음악은 1750년경~1810년경까지 주로 오스트리아 빈을 중심으로 발전한 서양음악사조를 말합니다.<br><br>
+            낭만주의 음악은 1815년 나폴레옹의 패전 이후~1960년까지의 음악사조를 말합나다. <br><br>
+            국민악파 음악은 작곡자가 자기 민족의 의식을 가지고 자기 민족의 고유한 특색을 음악에 담던 19세기 후반 서양의 음악 사조를 말합니다.<br><br>
+            근대 음악은 19세기 극후반~20세기 전중반의 음악사조를 말합니다.
+        </p>
+        <h3 style = "font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; font-weight: 10;
+        position:absolute; top:1em; left:15.5em; margin-right:-100%">
+            How do I use Symphonia?
+        </h3>
+        <p style="position: absolute; left: 26em; top:6em; font-size:20px; margin-right:-22em; font-weight: 10; text-align: center;">
+            당신이 듣고 싶은 시대를 하단의 시대선택 칸에서 고르고, 작곡가들을 하나하나 확인해보세요! <br><br>
+            작곡가 카드를 누르면 작곡가 별 추천 작품 목록으로 이동되게 됩니다! <br><br>
+            실제 연주 모습을 보시며 즐거운 시간을 가지세요. <br><br>
+            또한 하단에 클래식에 대한 생각들과 어려운 클래식 용어를 설명해둔 페이지도 있으니 이를 참고하시기 바랍니다.<br><br>
+            즐거운 클래식 타임 되세요! 
+        </p>
+        <div class = "spotify">
+            <img src = "images/spotify.png" style="position:absolute; top:16em; left: 8.5em; width:300px;">
+        </div>
+        <div class = "back" style= "position:absolute; left:-50em; top: -4em;  z-index:-10">
+            <img src = "images/back1.jpg" style = "width:200%">
+        </div>
+        <div class = "baroque" style = "position:absolute; left: -9.1em; top : 20em;">
+            <a href = "baroque.html">
+                <img src = "images/baroque.jpg" style = "width:220px; height:275px; filter:brightness(70%); ">
+            </a>
+        </div>
+        <p style = "position:absolute; left:-6.9em; top:22.5em; color:white;">
+            바로크
+        </p>
+        <div class = "classical" style = "position:absolute; left: 0.5em; top:20em;">
+            <a href = "classical.html">
+                <img src = "images/classical.jpg" style = "width:220px; height:275px; filter:brightness(70%);">
+            </a>
+        </div>
+        <p style = "position:absolute; left:2.3em; top:22.5em; color:white;">
+            고전주의
+        </p>
+        <div class = "romantic" style = "position:absolute; left: 10em; top:20em;">
+            <a href = "romantic.html">
+                <img src = "images/romantic.png" style = "width:220px; height:275px; filter:brightness(70%);">
+            </a>
+        </div>
+        <p style = "position:absolute; left:11.8em; top:22.5em; color:white;">
+            낭만주의
+        </p>
+        <div class = "nationalism" style = "position:absolute; left: 19em; top:20em;">
+            <a href = "nationalism.html">
+                <img src = "images/modern.jfif" style = "width:220px; height:275px; filter:brightness(60%);">
+            </a>
+        </div>
+        <p style = "position:absolute; left:20.8em; top:22.5em; color:white; margin-right:-100%">
+            국민악파
+        </p>
+        <div class = "modernism" style = "position: absolute; left: 28.5em; top:20em;">
+            <img src = "images/modernism.jpg" style="width:220px; height:275px;  filter:brightness(70%);"> 
+        </div>
+        <p style = "position:absolute; left:31em; top:22.5em; color:white; margin-right:-100%">
+            근대
+        </p>
+    </div>
+    <div class = "classicalfacts">
+        <h1 style = "position:absolute;top:36em;left:13%; font-size:60px; color:white;">
+            클래식은 진부하고 지루한 음악이다?
+        </h1>
+        <p style = "position:absolute;top:75em;left:13%; font-size:30px;  color:white;">
+            전혀요! 클래식은 현대음악의 모든 근간을 마련한 음악의 뿌리로, 근본 있으면서 매우 흥미로운 음악입니다.
+        </p>
+        <h1 style = "position:absolute;top:45em;left:48%; font-size:60px; color:white;">
+            클래식은 전부 똑같이 들린다?
+        </h1>
+        <p style = "position:absolute;top:93em;left:20%; font-size:30px; color:white;">
+            아닙니다! 시간이 지나며 악기의 튜닝과, 악장의 구성도 변화하며, 시대와 작곡가별로 특색이 있는 장르입니다.
+        </p>
+        <h1 style = "position:absolute;top:53em;left:13%; font-size:60px; color:white;">
+            클래식은 너무 길다?
+        </h1>
+        <p style = "position:absolute;top:109em;left:13%; font-size:30px; margin-right:30%; color:white;">
+            절대로 길지 않습니다! 한 곡이 3~5개의 악장으로 되어있고, 각 악장은 3~4개의 주제를 가지고 진행됩니다. 한 곡은 현대의 한 앨범의 길이와 비슷합니다. 
+        </p>
+    </div>
+    <div class = "footer">
+        <footer>
+            <div class = "footertext" style = "text-align:center; position: relative; top:245em; color:white;">
+                Contact myloveacdc@gmail.com. All rights are reserved to the original composers, I do not own these contents
+            </div>
+        </footer>
+    </div>
+</body>
